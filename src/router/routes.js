@@ -22,7 +22,7 @@ let routes = [{
 		path: '/',
 		component: Home,
 		name: '会员管理',
-		iconCls: 'el-icon-message', //图标样式class
+		iconCls: 'el-icon-menu', //图标样式class
 		children: [{
 				path: '/main',
 				component: resolve => require(['@/views/Main.vue'],resolve),
@@ -30,17 +30,17 @@ let routes = [{
 			},
 			{
 				path: '/table',
-				component: resolve => require(['@/views/nav1/Table.vue'],resolve),
+				component: resolve => require(['@/views/menber/card_type'],resolve),
 				name: '会员卡发放管理'
 			},
 			{
 				path: '/form',
-				component: resolve => require(['@/views/nav1/Form.vue'],resolve),
+				component: resolve => require(['@/views/menber/Form.vue'],resolve),
 				name: '会员卡充值管理'
 			},
 			{
 				path: '/user',
-				component: resolve => require(['@/views/nav1/user.vue'],resolve),
+				component: resolve => require(['@/views/menber/user.vue'],resolve),
 				name: '会员卡消费记录'
 			},
 		]

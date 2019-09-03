@@ -23,3 +23,78 @@ textarea,
 	-webkit-tap-highlight-color: transparent;
 	-webkit-box-sizing: border-box;
 }
+.pt10{
+	padding-top: 10px;
+}
+.pt20{
+	padding-top: 20px;
+}
+.ptb10{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.plr10{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.flex_aj {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex_column {
+	flex-direction: column;
+}
+
+.flex-cfs {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.flex_sb {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.flex_sa {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.flex-cfe {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.flex_cfd {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	flex-direction: column;
+}
+
+.flex-line {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.flex-cen{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.colw{
+	color: #fff;
+}
+
+.border1{
+	border-radius: 5px;
+}
+.opcity6{
+	opacity: .6;
+}

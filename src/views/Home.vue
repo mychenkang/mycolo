@@ -53,12 +53,12 @@
 			<section class="content-container">
 				<div class="grid-content bg-purple-light">
 					<el-col :span="24" class="breadcrumb-container">
-						<strong class="title">{{$route.name}}</strong>
-						<el-breadcrumb separator="/" class="breadcrumb-inner">
+						<el-breadcrumb separator="/" class=" title">
 							<el-breadcrumb-item v-for="item in $route.matched" :key="item.path">
 								{{ item.name }}
 							</el-breadcrumb-item>
 						</el-breadcrumb>
+						<strong class="breadcrumb-inner">{{$route.name}}</strong>
 					</el-col>
 					<el-col :span="24" class="content-wrapper">
 						<transition name="fade" mode="out-in">
@@ -149,7 +149,7 @@
 		.header {
 			height: 60px;
 			line-height: 60px;
-			background: $color-primary;
+			background: #18c79c;
 			color:#fff;
 			.userinfo {
 				text-align: right;
